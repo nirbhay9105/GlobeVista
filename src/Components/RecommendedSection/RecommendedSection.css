@@ -1,0 +1,83 @@
+.recommended-section {
+  background: #f0f4f3;
+  padding: 40px 0;
+}
+
+.recommended-section h3 {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.recommended-section p {
+  font-size: 0.95rem;
+  margin-bottom: 18px;
+}
+
+/* container settings */
+.recommended-section .container {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Green shape on right side */
+.recommended-section .container .bg-shape {
+  width: 25%;
+  background-color: var(--secondary-bg-color);
+  bottom: 0;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  z-index: 1;
+}
+
+/* Text box background */
+.recommended-section .text-box {
+  background: rgba(0, 0, 0, 0.55); /* dark overlay */
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.book-now-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: linear-gradient(90deg, #32a859, #2c7d40);
+  color: #fff !important;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.book-now-btn:hover {
+  background: linear-gradient(90deg, #2c7d40, #1f5c2f);
+  transform: translateY(-2px);
+  color: #fff !important;
+}
+
+@media screen and (max-width: 992px) {
+  .recommended-section .container .bg-shape {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .recommended-section .container .bg-shape {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .recommended-section h3 {
+    font-size: 1.4rem;
+  }
+}

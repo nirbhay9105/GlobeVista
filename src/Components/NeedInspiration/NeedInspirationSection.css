@@ -1,0 +1,74 @@
+.need-inspiration-section {
+    background: url('../../Assets/Images/holidays-holiday-plan-bg.jpg') center/cover no-repeat;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    border: transparent;
+    border-radius: 8px;
+
+}
+
+/* Dark overlay across the section */
+.need-inspiration-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%; 
+    background: rgba(0,0,0,0.5); /* darker overlay */
+    z-index: 1;
+}
+
+.need-inspiration-section .bg-shape {
+    background: var(--primary-bg-color); /* light card-like box */
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Text styling */
+.need-inspiration-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.need-inspiration-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.need-inspiration-section .contact-box {
+    display: flex;
+    align-items: center;
+}
+
+.need-inspiration-section .contact-box h5 {
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+.need-inspiration-section .contact-box a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.need-inspiration-section .contact-box a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .need-inspiration-section .bg-shape {
+        width: 100%;
+        text-align: center;
+    }
+}

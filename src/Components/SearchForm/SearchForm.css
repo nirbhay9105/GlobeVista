@@ -1,0 +1,23 @@
+.search-form {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.95); /* Softer white with slight opacity */
+  display: flex;
+  gap: 10px;
+  padding: 18px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+  backdrop-filter: blur(6px); /* Modern glass effect */
+}
+
+
+@media screen and (max-width: 992px) {
+    .search-form {
+        position: relative;
+        width: 90%;
+        transform: translate(-55.9%, 0%);
+    }
+}

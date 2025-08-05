@@ -1,0 +1,40 @@
+.holiday-plan-section {
+  background: url('../../Assets/Images/holidays-holiday-plan-bg.jpg') center/cover no-repeat;
+  position: relative;
+  min-height: 320px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+  
+}
+
+.holiday-plan-section::before {
+  content: '';
+  background: rgba(0, 0, 0, 0.4); /* dark overlay */
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.holiday-plan-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.green-btn {
+  background-color: #2e7d32;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: background 0.3s ease;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.green-btn:hover {
+  background-color: #1b5e20;
+}
+

@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #2e7d32;
+  --secondary-color: #1b5e20;
+  --accent-color: #ff6f00;
+
+  /* नया background uniform और soft */
+  --primary-bg-color: #f6f8fa;   /* light neutral background */
+  --dark-bg-color: rgba(0, 0, 0, 0.6); /* darker glassy background */
+}
+
+.App {
+  text-align: center;
+  background: var(--primary-bg-color); /* पूरे App को same background */
+}
+
+.App h1 {
+  font-size: 4.2rem;
+}
+
+.App h2 {
+  font-size: 3.2rem;
+}
+
+.App h3 {
+  font-size: 2.2rem;
+}
+
+.text-green {
+  color: var(--primary-color);
+}
+
+/* ---------- IMAGE HOVER ---------- */
+.img-hover,
+.img-hover:hover {
+  transition: all 0.4s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.04);
+}
+
+/* ---------- HERO BUTTONS & BOOK NOW ---------- */
+.primary-btn,
+.book-now-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, var(--accent-color), #ff3d00);
+  color: white !important;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-btn:hover,
+.book-now-btn:hover {
+  background: linear-gradient(90deg, #ff3d00, var(--accent-color));
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ---------- SEARCH FORM ---------- */
+.search-form {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--primary-bg-color);
+  display: flex;
+  gap: 10px;
+  padding: 18px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+  backdrop-filter: blur(6px);
+}
+
+.search-form input,
+.search-form select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media screen and (max-width: 768px) {
+  .App h2 {
+    font-size: 2.5rem;
+  }
+
+  .search-form {
+    flex-direction: column;
+    width: 90%;
+    bottom: -40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .App h1 {
+    font-size: 2.2rem;
+  }
+
+  .App h2 {
+    font-size: 1.75rem;
+  }
+
+  .App h3 {
+    font-size: 1.4rem;
+  }
+}
