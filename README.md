@@ -1,4 +1,4 @@
-# Travel HUB
+# GlobeVista
 
 ## Description
 A multi-page travel site designed with [React JS](https://react.dev/) and [React Bootstrap](https://react-bootstrap.netlify.app/), integrating [Font Awesome](https://fontawesome.com/)e for icons, [Unsplash](https://unsplash.com/) for imagery, and custom [Google Fonts](https://fonts.google.com/) (Manrope & Anton SC) for typography. The project features pages like Holidays, City Breaks, and Destinations, along with a functional search form and modern UI components. It highlights seamless visual design integration and scalable front-end structure for travel platforms.
@@ -33,7 +33,8 @@ A multi-page travel site designed with [React JS](https://react.dev/) and [React
 
 ## Getting Started
 ```bash
-git clone https://github.com/Ionut-Cora/react-travel
+git clone  https://github.com/nirbhay9105/GlobeVista.git
+
 cd react-travel
 npm install
 npm start
