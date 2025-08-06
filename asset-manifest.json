@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nirbhay9105/GlobeVista/static/css/main.37008eaf.css",
-    "main.js": "/nirbhay9105/GlobeVista/static/js/main.5325305f.js",
+    "main.css": "/nirbhay9105/GlobeVista/static/css/main.3113bdc2.css",
+    "main.js": "/nirbhay9105/GlobeVista/static/js/main.56271105.js",
     "static/media/destinations-need-inspiration-bg.jpg": "/nirbhay9105/GlobeVista/static/media/destinations-need-inspiration-bg.c809d2432758dc8e351b.jpg",
     "static/media/city-breaks-hero-bg.jpg": "/nirbhay9105/GlobeVista/static/media/city-breaks-hero-bg.23c2ab89ac1570597a63.jpg",
     "static/media/holidays-recommended-section-bg.jpg": "/nirbhay9105/GlobeVista/static/media/holidays-recommended-section-bg.9e2cb7514dda63791ced.jpg",
@@ -75,11 +75,11 @@
     "static/media/london-hotel6.jpg": "/nirbhay9105/GlobeVista/static/media/london-hotel6.2e484d275144e82f0f61.jpg",
     "index.html": "/nirbhay9105/GlobeVista/index.html",
     "static/media/chevron-right.svg": "/nirbhay9105/GlobeVista/static/media/chevron-right.597fe3d8ed529406dc9c3e43721773e3.svg",
-    "main.37008eaf.css.map": "/nirbhay9105/GlobeVista/static/css/main.37008eaf.css.map",
-    "main.5325305f.js.map": "/nirbhay9105/GlobeVista/static/js/main.5325305f.js.map"
+    "main.3113bdc2.css.map": "/nirbhay9105/GlobeVista/static/css/main.3113bdc2.css.map",
+    "main.56271105.js.map": "/nirbhay9105/GlobeVista/static/js/main.56271105.js.map"
   },
   "entrypoints": [
-    "static/css/main.37008eaf.css",
-    "static/js/main.5325305f.js"
+    "static/css/main.3113bdc2.css",
+    "static/js/main.56271105.js"
   ]
 }
